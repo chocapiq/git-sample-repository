@@ -1,18 +1,23 @@
-git status -> prints the status of the Git Repository
-git init -> initalizes the Git Repository
-git config --global user.name "Let's Kode It"
-git config --global user.email letskodeit@gmail.com
-git config user.name "Let's Kode It"
-git config user.email letskodeit@gmail.com
-git add
-git commit -m ""
-git log
-Git diff <filename>
+git status 						-> prints the status of the Git Repository
+git init 						-> initalizes the Git Repository
+git config --global user.name "Let's Kode It"		-> Specify Username globally
+git config --global user.email letskodeit@gmail.com	-> Specify email globaly
+git config user.name "Let's Kode It"			-> Specify Username for particular repository
+git config user.email letskodeit@gmail.com		-> Specify email for particular repository
+git add							-> Add file to staging environment
+git commit -m ""					-> Commit file to local Git Repository with comment inside ""
+git log							-> Check file log history
+git diff <filename>					-> Check changed made to file with existing file
+git remote add origin <GitHub Repository URL>		-> Establish connection to the remote Github Repository
+git push origin master <or name of the branch>		-> Push to master branch
+git pull origin master <or name of the branch>		-> Pull from master branch
+cd <foldername>						-> Moving to the folder.
+cd..							-> Moving back from the folder.
+git checkout -b <branch name>				-> Creating new branch, switch to branch without -b
+cls							-> clean prompt command
+git url							-> https://github.com/chocapiq/git-sample-repository
 
-
-
-
-cls							 -> clean prompt command
-git url							 -> https://github.com/chocapiq/git-sample-repository
-	
-
+Dealing with 'can't automatically merge' error
+Can't merge because we made changes to master branch
+git checkout <go to the branch error is on>
+git pull origin master
