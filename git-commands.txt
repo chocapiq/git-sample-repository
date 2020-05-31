@@ -9,8 +9,8 @@ git commit -m ""					-> Commit file to local Git Repository with comment inside 
 git log							-> Check file log history
 git diff <filename>					-> Check changed made to file with existing file
 git remote add origin <GitHub Repository URL>		-> Establish connection to the remote Github Repository
-git push origin master 					-> Push to master branch
-git pull						->
+git push origin master <or name of the branch>		-> Push to master branch
+git pull origin master <or name of the branch>		-> Pull from master branch
 cd <foldername>						-> Moving to the folder.
 cd..							-> Moving back from the folder.
 git checkout -b <branch name>				-> Creating new branch, switch to branch without -b
